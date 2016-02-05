@@ -1,0 +1,366 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-family: $base-font-family-sans;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $text-color;
+    }
+}
+
+.site-nav {
+    float: right;
+    line-height: 56px;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+            margin-left: 20px;
+        }
+    }
+}
+
+
+
+/**
+ * Site footer
+ */
+.site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+}
+
+.footer-heading {
+    color: $text-color;
+    font-size: 18px;
+    margin-bottom: $spacing-unit / 2;
+    text-align: center;
+}
+
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.footer-col-wrapper {
+    font-size: 15px;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.footer-col {
+    text-align: center;
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.footer-col-1 {
+    width: -webkit-calc(27.5% - (#{$spacing-unit} / 2));
+    width:         calc(27.5% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+    margin-top: $spacing-unit / 2;
+}
+
+.footer-col-3 {
+    width: -webkit-calc(27.5% - (#{$spacing-unit} / 2));
+    width:         calc(27.5% - (#{$spacing-unit} / 2));
+    margin-top: $spacing-unit / 2;
+}
+
+@include media-query($on-laptop) {
+  .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+@include media-query($on-palm) {
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+
+  /* flip the pane when hovered */
+	&:hover .flipper,
+  .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+  }
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+
+  /* hide back of pane during swap */
+  .front, .back {
+  	backface-visibility: hidden;
+
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  }
+
+  /* front pane, placed above back */
+  .front {
+  	z-index: 2;
+  	/* for firefox 31 */
+  	transform: rotateY(0deg);
+  }
+
+  /* back, initially hidden pane */
+  .back {
+  	transform: rotateY(180deg);
+    a {
+      color: white;
+      font-family: $base-font-family-sans;
+      font-size: 25px;
+      font-style: italic;
+      position: absolute;
+      top: calc(50% - #{25px}/#{$base-line-height});
+      left: calc(50% - #{25px}*#{$base-line-height});
+    }
+  }
+}
+
+.love {
+  font-family: $base-font-family-sans;
+  font-size: $small-font-size;
+  color: transparentize($grey-color, 0.3);
+
+  .octicon-heart {
+    color: transparentize($brand-color, 0.3);
+  }
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 20px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+
+        > h2 {
+          margin-bottom: 0;
+        }
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+    margin-bottom: $spacing-unit;
+}
+
+.post-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+    color: $grey-color-dark;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.post-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
+
+/**
+ * All
+ */
+.label {
+  &.category {
+    background-color: $brand-color;
+    &:hover {
+      color: #ff;
+      background-color: darken($brand-color, 5%);
+    }
+  }
+  &.tag {
+    background-color: #1abc9c;
+    &:hover {
+      color: #fff;
+      background-color: darken(#1abc9c, 5%);
+    }
+  }
+  display: inline;
+  padding: .2em .6em .3em;
+  font-family: $base-font-family-sans;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 70%;
+
+  @include media-query($on-laptop) {
+    width: 20%;
+  }
+
+  @include media-query($on-palm) {
+    width: 40%;
+  }
+}
+
+/**
+ * Filter Styles
+ */
+.blur {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.flipped {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+}

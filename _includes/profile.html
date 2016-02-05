@@ -1,0 +1,15 @@
+<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+	<div class="flipper">
+		<div class="front">
+			<!-- front content -->
+			<img class="profile" src="{{ site.baseurl }}/media/polyprofile.jpg"/>
+		</div>
+		<div class="back">
+			<!-- back content -->
+			<img class="profile blur flipped" src="{{ site.baseurl }}/media/polyprofile.jpg"/>
+			<a href="mailto:{{ site.email }}">Say hi.</a>
+		</div>
+	</div>
+</div>
+<!-- I make myself puke with this hack. Ugh. -->
+<img class="profile" src="{{ site.baseurl }}/media/polyprofile.jpg" style="visibility: hidden;"/>

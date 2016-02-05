@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.owner }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {% include profile.html %}
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>{{ site.description }}</p>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+          <li>
+            {% include icon-resume.html %}
+          </li>
+          <li>
+            {% include icon-soundcloud.html %}
+          </li>
+        </ul>
+        {% include withlove.html %}
+      </div>
+    </div>
+
+  </div>
+
+</footer>
