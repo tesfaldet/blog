@@ -16,6 +16,9 @@ url: "http://blog.mtesfaldet.net" # the base hostname & protocol for your site
 github_username: tesfaldet
 owner: "Matthew Tesfaldet"
 
+# Outputting
+permalink: /:year/:month/:day/:title
+
 # Build settings
 markdown: kramdown
 

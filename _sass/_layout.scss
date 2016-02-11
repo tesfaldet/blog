@@ -348,6 +348,26 @@
   }
 }
 
+.tag-cloud {
+  font-family: $base-font-family-sans;
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  font-size: 16px;
+  margin-left: 0;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+  }
+}
+.archive-group {
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+.post-tags {
+  text-align: right;
+}
+
 /**
  * Filter Styles
  */

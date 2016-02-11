@@ -9,10 +9,10 @@ layout: default
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       {% if page.categories.size != 0 or page.tags.size != 0 %} •{% endif %}
       {% for category in page.categories %}
-        <a href="/categories/#{{ category }}"><span itemprop="keywords" class="label category">{{ category }}</span></a>
+        <a href="/categories/#{{ category | slugize }}"><span itemprop="keywords" class="label category">{{ category }}</span></a>
       {% endfor %}
       {% for tag in page.tags %}
-        <a href="/tags/#{{ tag }}"><span itemprop="keywords" class="label tag">{{ tag }}</span></a>
+        <a href="/tags/#{{ tag | slugize }}"><span itemprop="keywords" class="label tag">{{ tag }}</span></a>
       {% endfor %}
     </p>
   </header>
