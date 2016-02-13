@@ -4,3 +4,5 @@ _site
 .jekyll-metadata
 _deploy.yml
 .deploy
+bin
+vendor

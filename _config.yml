@@ -21,6 +21,10 @@ permalink: /:year/:month/:day/:title
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
+exclude:
+  - vendor
 
 # Default settings
 defaults:
