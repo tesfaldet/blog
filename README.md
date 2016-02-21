@@ -10,6 +10,8 @@ Sure. Go ahead. Make sure to run `bundle install --binstubs --path vendor/gems`.
 
 `bundle exec rake build` to build the site.
 
+`bundle exec rake deploy` to deploy (run build before deploy).
+
 ### Todo
 - Remove garbage posts
 - Add support for sharing on social media (Open Graph, Twitter card)
