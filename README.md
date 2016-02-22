@@ -16,7 +16,6 @@ Sure. Go ahead. Make sure to run `bundle install --binstubs --path vendor/gems`.
 - Remove garbage posts
 - Add support for sharing on social media (Open Graph, Twitter card)
 - Add social site meta tags
-- Use Google analytics
 - Add infinite scroll? ([Waypoints](http://imakewebthings.com/waypoints/shortcuts/infinite-scroll/))
 - [Google SEO](https://www.google.com/webmasters/)
 - Templating for static pagination with no plugins or gems
