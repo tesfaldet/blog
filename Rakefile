@@ -8,16 +8,20 @@ require "html_compressor"
 # Minify, optimize, and compress
 
 desc "build the site"
-task :build do
-  system "bundle exec jekyll build"
+task :build, [:option] do |t, args|
+  options = []
+  options << "#{args.option}" if args.option
+  system "bundle exec jekyll build " << options * " "
   system "bundle exec rake minify_html"
   # system "bundle exec rake optimizeimages"
 end
 
 # Serve the site
 desc "serve the site"
-task :serve do
-	system "bundle exec jekyll serve --skip-initial-build"
+task :serve, [:option] do |t, args|
+  options = ["--skip-initial-build"]
+  options << "#{args.option}" if args.option
+	system "bundle exec jekyll serve " << options * " "
 end
 
 ##############
