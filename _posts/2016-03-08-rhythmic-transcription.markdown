@@ -33,7 +33,7 @@ And she's **gone**
 
 **Foll**ow her **down** to a **bridge** by a **foun**tain
 
-**Where** rocking **horse** people **eat** marshmallow **pies**
+Where **rock**ing horse **peo**ple eat **marsh**mallow **pies**
 
 **Ever**yone **smiles** as you **drift** past the **flow**ers
 
