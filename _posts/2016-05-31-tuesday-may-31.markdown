@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tuesday, May 31"
+date: 2016-05-31
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- matconvnet tutorial with the team
+- Note take the rest of Lecture 11 set for Andrew Ng
+
+#### Done
+- Finished note taking all of Lecture 11 material
+- Up to matconvnet Part 2.1: Using backprop in practice

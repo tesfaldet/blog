@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Monday, Jun 6"
+date: 2016-06-06
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Start working on the neural net [assignment](http://www.cc.gatech.edu/~hays/compvision/proj6/) Dr. Derpanis handed us (due on Friday at midnight)
+
+#### Done
+- Read over the assignment (it’s crazy cool!)
+- Took notes on what to do for Part 1 on my iPad (I’ll post these later)
+    - I’m still not sure how to count the number of free params by looking at a nn architecture drawing (I drew one)
+- Set up the neural net on the new VDI machines we have running at the CS department
+    - I noticed around a 3x increase in training/validation speed so this should be helpful for decreasing waiting times
+
+#### Want To Do Tomorrow
+- Finish Part 1 and Part 2
+- Start doing the optional improvements for Part 1

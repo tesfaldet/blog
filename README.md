@@ -6,9 +6,9 @@ Currently hosted on Github Pages with [Octopress 3](https://github.com/octopress
 ### Forking?
 Sure. Go ahead. Make sure to run `bundle install --binstubs --path vendor/gems`.
 
-`bundle exec rake serve` to serve the site on localhost:4000.
+`bundle exec rake serve|serve["--drafts"]` to serve the site on localhost:4000.
 
-`bundle exec rake build` to build the site.
+`bundle exec rake build|build["--drafts"]` to build the site.
 
 `bundle exec rake deploy` to deploy (run build before deploy).
 

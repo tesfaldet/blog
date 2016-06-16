@@ -2,7 +2,7 @@
 layout: post
 title: "My First Deep Learning Project"
 date: 2016-06-10T18:47:44-04:00
-categories: research
+categories: [research, usra]
 tags: [computer vision, machine learning]
 ---
 ## Introduction

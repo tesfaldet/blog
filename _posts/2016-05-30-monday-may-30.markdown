@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Monday, May 30"
+date: 2016-05-30
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Go over matconvnet tutorial with the team
+- Finish note taking the rest of Lecture 10 and 11 for Andrew Ng ML lectures
+
+#### Done
+- Finished note taking Lecture 10 and all but the last lecture for lecture 11 set
+- matconvnet tutorial cancelled by Dr. Derpanis

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Friday, Jun 10"
+date: 2016-06-10
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Finish Part 2 of the neural net assignment
+- Start and finish my report (i.e. blog post) about my results and what I learned during the assignment
+
+#### Done
+- Finished above
+    - [Link]({{ site.baseurl }}/2016/06/10/my-first-deep-learning-project) to the blog post

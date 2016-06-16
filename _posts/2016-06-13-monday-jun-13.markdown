@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Monday, Jun 13"
+date: 2016-06-13
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Watch Andrew Ng lectures 13:
+    - Unsupervised learning intro
+    - K-Means Algorithm
+    - Optimization objective
+    - Random initialization
+    - Choosing the number of clusters
+
+#### Done
+- Above and including lectures 14-1, 14-2, and 14-3
+    - Motivation I - Data Compression
+    - Motivation II - Visualization
+    - Principle Component Analysis Problem Formulation

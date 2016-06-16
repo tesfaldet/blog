@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Tuesday, Jun 14"
+date: 2016-06-14
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Watch rest of Andrew Ng lecture 14:
+    - Principle Component Analysis Algorithm
+    - Choosing the Number of Principle Components
+    - Reconstruction from Compressed Representation
+    - Advice for Applying PCA
+
+#### Done
+- Above and including lecture 15-1, 15-2, and 15-3
+    - Problem Motivation
+    - Gaussian Distribution
+    - Algorithm

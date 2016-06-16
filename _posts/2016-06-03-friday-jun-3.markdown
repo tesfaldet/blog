@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Friday, Jun 3"
+date: 2016-06-03
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Go over the unsupervised learning of edges paper
+
+#### Done
+- Went over the unsupervised learning of edges paper with the reading group (Dr. Derpanis, Adam, Hasan, Jason, Oskar)
