@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Friday, Jun 17"
+date: 2016-06-17T22:07:49-04:00
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Go over the [Karpathy](http://karpathy.github.io/2016/05/31/rl/) and [Nervana](https://www.nervanasys.com/demystifying-deep-reinforcement-learning/) blog posts on Reinforcement Learning with the reading group
+	- Seems like we're skipping the Andrew Ng lectures for today. We'd be on Lecture 17 otherwise.
+- Start finishing up the notes for Andrew Ng lectures.
+	- Currently on lecture 13. Unsupervised learning!
+- Start working on the tic tac toe Q-Learning exercise Adam gave us
+	- I may not have time to start on it today since I'm finishing up the Andrew Ng notes. I'll either work on it tomorrow or Monday.
+
+#### Done
+- Went through the above readings with the group
+- Finished note taking for lecture 13
+- Set up Slack bot that posts /r/MachineLearning posts to the #bots channel
+	- Forgot to mention that I set up a Slack team for our lab yesterday
