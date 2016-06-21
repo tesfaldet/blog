@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Monday, Jun 20"
+date: 2016-06-21T10:19:31-04:00
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Watch first lecture of Stanford's [CS231n](http://cs231n.stanford.edu/syllabus.html)
+- Start going through Adam's tic tac toe RL code and implement a learning algorithm using the Q-Table approach
+
+#### Done
+- Watched the first lecture of Stanford's CS231n
+	- Contained intro to the history of Computer Vision. The course will be pretty much Computer Vision using neural nets as the model
+- Spent a little bit of time going through Adam's tic tac toe RL code
+- The group has been tasked by Dr. Derpanis to collect dashcam videos of people driving
+	- No timelapse
+	- HD videos only
+	- No heavy reflections
+	- Create a text file with all the URLs
+	- No inclement weather
+		- Keep it daytime
+	- Cars only (no motorcycles or bikes)
+	- Front-facing view
