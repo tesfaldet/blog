@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tuesday, Jun 21"
+date: 2016-06-21
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Go over lecture 2: image classification pipeline
+- Read the Geometry to the Rescue paper for tomorrow's reading group meetup
+- Finish the tictactoe reinforcement learning assignment using a Q-Table
+
+#### Done
+- Above
