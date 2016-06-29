@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Friday, Jun 24"
+date: 2016-06-24
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Watch lecture 5: Training Neural Networks, Part I
+
+#### Haven't done yet
+- Start implementing Q-Learning for the tictactoe learning algorithm
+	- A different reinforcement learning approach that uses a neural net
+- Start collecting dash cam driving videos for our dataset
+
+#### Done
+- Watched lecture 5 of CPS231n

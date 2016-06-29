@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Monday, Jun 27"
+date: 2016-06-27
+categories: [research, usra]
+tags: [computer vision, machine learning]
+---
+#### To do
+- Dr. Derpanis and Adam are gone to CVPR for this week so Jason, Oskar, and I have been tasked with finishing the first CPS231n [assignment](http://cs231n.github.io/assignments2016/assignment1/)
+	- Due by next Monday
+
+#### Haven't done yet
+- Start implementing Q-Learning for the tictactoe learning algorithm
+	- A different reinforcement learning approach that uses a neural net
+- Start collecting dash cam driving videos for our dataset
+	- I have plenty lined up for processing
+
+#### I'd like to do
+- Modify the tictactoe learning alg (with Q-Tables) to have the opponent also use a Q-Table
+
+#### Done
+- I setup the work environment for the assignment. It took all afternoon! In case anyone is working on the fish shell (in OSX) and wants to use the manual approach (using virtualenv):
+	1. `brew install python; brew install python3`
+		- This will install both python and python 3 with their respective versions of pip (pip3 and pip2.7)
+	2. When activating the virtual environment, use `activate.fish`
+		- Don't create a virtual environment in a location where the file path contains a space
