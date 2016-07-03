@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Wednesday, Jun 29"
-date: 2016-06-29
+title: "Thursday, Jun 30"
+date: 2016-06-30
 categories: [research, usra]
 tags: [computer vision, machine learning]
 ---
@@ -18,4 +18,4 @@ tags: [computer vision, machine learning]
 - Modify the tictactoe learning alg (with Q-Tables) to have the opponent also use a Q-Table
 
 #### Done
-- Started working on Q2 on the CPS231n assignment
+- Nothing really. Still stuck on Q2.
